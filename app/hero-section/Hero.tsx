@@ -89,7 +89,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
+            title="Prajwal Kokate"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -100,7 +100,7 @@ const Hero = () => {
               src={profile}
               priority
               alt="Victor's headshot"
-              data-blobity-tooltip="Giga Chad"
+              data-blobity-tooltip="Sanskari"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -118,15 +118,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, prev at{" "}
-            <Link
-              href="https://www.mono.co/"
-              target="_blank"
-              className="underline underline-offset-2 hover:no-underline"
-              aria-label="Mono Website"
-            >
-              Mono,
-            </Link>{" "}
+            Freelancing Cinematographer and Content Creator
             currently available for work.
           </p>
         </motion.div>
@@ -136,8 +128,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Focused on Quality Work and Customer Satisfaction.
           </p>
         </motion.div>
       </div>
