@@ -34,51 +34,39 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://www.instagram.com/_sanskari_?igsh=MWw1cnQ1eWJ5MGV3OA=="
             target="_blank"
-            aria-label="View GitHub Profile"
+            aria-label="View Instagram Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              Insta
+              Instagram
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.facebook.com/profile.php?id=100043474267561&mibextid=ZbWKwL"
             target="_blank"
-            aria-label="View LinkedIn Profile"
+            aria-label="View Facebook Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              Tweet
+              Facebook
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://youtube.com/@prajwalkokatefilms?si=CP8cpxNxGM4QdxoO"
             target="_blank"
-            aria-label="View Twitter Profile"
+            aria-label="Visit YouTube Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              YouT
-            </motion.p>
-          </Link>
-          <Link
-            href="https://contra.com/victorwilliams"
-            target="_blank"
-            aria-label="View Contra Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              Med
+              YouTube
             </motion.p>
           </Link>
         </div>
