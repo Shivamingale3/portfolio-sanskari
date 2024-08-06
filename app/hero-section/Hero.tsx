@@ -42,7 +42,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              GH
+              Insta
             </motion.p>
           </Link>
           <Link
@@ -54,7 +54,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              Tweet
             </motion.p>
           </Link>
           <Link
@@ -66,7 +66,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
+              YouT
             </motion.p>
           </Link>
           <Link
@@ -78,7 +78,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              Med
             </motion.p>
           </Link>
         </div>
