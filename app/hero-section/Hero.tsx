@@ -19,20 +19,20 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/victorwilliams/30min"
+            href="https://wa.me/9422389529"
             target="_blank"
-            aria-label="BOOK A CALL"
+            aria-label="SCHEDULE A MEET"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              BOOK A CALL
+              SCHEDULE A MEET
             </motion.button>
           </Link>
         </div>
 
-        <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
+        <div className="flex gap-100 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14 ">
           <Link
             href="https://www.instagram.com/_sanskari_?igsh=MWw1cnQ1eWJ5MGV3OA=="
             target="_blank"
