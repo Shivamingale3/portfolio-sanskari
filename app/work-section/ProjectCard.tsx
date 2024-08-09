@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { ProjectProps } from "./projectDetails";
 import Link from "next/link";
 import Image from "next/image";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedBody from "../animations/AnimatedBody";
 import { motion } from "framer-motion";
+import { faCirclePlay, faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = ({
   id,
@@ -54,7 +54,7 @@ const ProjectCard = ({
               aria-label="Open GitHub Repository"
             >
               <FontAwesomeIcon
-                icon={faGithub}
+                icon={faCirclePlay}
                 className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
                 data-blobity
                 data-blobity-radius="38"
